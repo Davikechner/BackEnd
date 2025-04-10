@@ -1,6 +1,6 @@
 // //-01
 let nome = "Davi Kechner";
-let idade = "15";
+let idade = 15;
 
 console.log("Olá meu nome é",nome,"e eu tenho",idade, "anos")
 
