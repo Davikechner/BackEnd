@@ -1,19 +1,20 @@
-// //-01
+//-01
 let nome = "Davi Kechner";
-let idade = "15";
+let idade = 15;
 
-console.log("Olá meu nome é",nome,"e eu tenho",idade, "anos")
+console.log("Olá meu nome é " + nome + " e eu tenho" + idade + " anos")
+console.log(" ")
 
 
 
 //-02
-let string = "Eu Estudo no If";
+let string = "Eu Sou Etudante Do Ifro";
 texto = string.toLowerCase();
 console.log(texto);
 
 texto = string.toLocaleUpperCase();
 console.log(texto);
-
+console.log(" ")
 
 
 //-03
@@ -25,7 +26,7 @@ console.log(texto1);
 
 let texto2 = (typeof number);
 console.log(texto2);
-
+console.log(" ")
 
 
 //-04
