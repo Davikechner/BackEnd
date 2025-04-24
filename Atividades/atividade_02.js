@@ -26,7 +26,6 @@ console.log(comparacao)
 console.log(" ")
 
 
-
 //-03
 let idade = 24
 let comparar = idade >= 18 ? `Se a pessoa possui ${idade} anos ela é maior de idade` : `Se a pessoa possui ${idade} anos ela é menor de idade`;

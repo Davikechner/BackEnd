@@ -29,3 +29,7 @@ var telefones = [
 
 const aula = "JavaScript";
 aula = "JS"; //A VARIAVEL SERA IMUTAVEL(nao podera ser atualizada)
+
+1 == "1" || "a" == "a" //True
+35 === "35" && 1 == 10 //False
+!( "a" == 1) //True
