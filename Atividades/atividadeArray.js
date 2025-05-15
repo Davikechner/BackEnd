@@ -74,3 +74,5 @@ let soma6 = numeros.reduce((acc, val) => acc + val, 0);
 let produto = numeros.reduce((acc, val) => acc * val, 1);
 console.log(soma);
 console.log(produto);
+
+
