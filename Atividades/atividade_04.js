@@ -1,4 +1,4 @@
-// //-01
+// // //-01
 import entradaDados from "readline-sync";
 
 
@@ -101,9 +101,9 @@ console.log(" ")
 
 //-03
 
-let a = entradaDados.question("Informe o primeira numero:  ")
+let a = entradaDados.questionFloat("Informe o primeira numero:  ")
 let operacao = entradaDados.question("Informe a operação que deseja:  ")
-let b = entradaDados.question("Informe o segundo numero:  ")
+let b = entradaDados.questionFloat("Informe o segundo numero:  ")
 
 let divisao = [a / b]
 let adicao = [a + b]
@@ -127,4 +127,34 @@ switch(a,b,operacao){
         console.log("O resultado será igual a:",divisao)
         break
 
+}
+console.log(" ")
+
+
+//-04
+
+
+let salario = entradaDados.questionFloat("Informe o teu salario: ");
+let perg = entradaDados.question("Informe a categoria (A, B, C ou D): ").toUpperCase();
+
+switch(perg) {
+    case "A":
+        console.log("Seu salário atualizado é:", salario + (salario * 5 / 100));
+        break;
+    
+    case "B":
+        console.log("Seu salário atualizado é:", salario + (salario * 10 / 100));
+        break;
+
+    case "C":
+        console.log("Seu salário atualizado é:", salario + (salario * 15 / 100));
+        break;
+        
+    case "D":
+        console.log("Seu salário atualizado é:", salario + (salario * 20 / 100));
+        break;
+
+    default:
+        console.log("Categoria inválida. Use A, B, C ou D.");
+        break;
 }
